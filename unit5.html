@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Unit 5</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            background-color: #f6f6ef;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        p {
+            margin: 0 0 10px 0;
+            text-align: left;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 400px;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .breadcrumb {
+            align-self: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .breadcrumb a:hover {
+            background-color: #e0e0e0;
+        }
+
+        .code-block, code {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f8f9fa;  /* Light gray background */
+    border: 1px solid #e9ecef;  /* Lighter border color */
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    overflow-x: auto;
+}
+
+        code {
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        ul {
+            width: 100%;
+            padding-left: 20px;
+        }
+
+        h2 {
+            width: 100%;
+            margin: 0 0 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">Back to homepage</a>
+    </div>
+
+    <div class="container">
+        <h2>Unit 5</h2>
+        <h3>Reflection: Ethical Implications of Misused Surveys in Data Collection</h3>
+        <p>The Cambridge Analytica scandal from 2018 is a stark reminder of how questionable surveys can lead to massive data breaches. Under the guise of personality quizzes like “This Is Your Digital Life,” around 270,000 Facebook users willingly participated. However, due to permissive API settings, the app ended up accessing data from approximately 87 million users without their express consent. That data was later used to build psychographic profiles that targeted voters in both the Brexit referendum and the 2016 U.S. presidential election (Confessore 2018; Cutler & Kulis 2018). This is a clear violation of ethical standards—such as transparency, user autonomy, and informed consent—which are central to both the ACM Code of Ethics and the British Computer Society’s Code of Conduct.</p> <p>Another noteworthy case is the Google Street View Wi-Fi incident that ran between 2008 and 2010. While collecting street images, Google’s mapping vehicles also grabbed payload data—like emails and passwords—from unsecured home networks. Initially, Google called it a mistake, but later documents from the FCC revealed that these data-collection tools were intentionally embedded in the code (Wired 2012; Burdon & McKillop 2015). The backlash included multiple investigations, lawsuits such as Joffe v. Google in 2013, regulatory penalties abroad, and a $13 million class-action settlement in the U.S. These events highlight poor internal governance and insufficient technical safeguards.</p> <p>These two scandals significantly eroded public trust in online platforms and prompted tighter data protection laws—most notably the EU’s General Data Protection Regulation (GDPR), which came into force in 2018 and emphasizes data minimisation, purpose limitation, and explicit consent.</p> <p>From a professional standpoint, these events stress the importance of embedding privacy-by-design principles into digital systems. It's not enough to build robust technology; organizations must also cultivate an ethical culture and enforce accountability among developers, data scientists, and platform designers.</p> <p>Further research underscores the nuances of digital data collection. Alex McKeown (2023) warns that passive data collection—when systems gather information without user awareness—often skirts the boundaries of true informed consent, raising serious ethical concerns (IGS 2023). Likewise, Ali and colleagues (2019) demonstrated how even routine interactions with public Wi-Fi can result in the collection of sensitive personal data long after users have left the network, underscoring the urgent need for stricter privacy protections (Ali et al. 2019).</p> 
+
+        <p><strong>References:</strong></p>
+
+        <ul>
+  <li>Ali, S., Osman, T., Mannan, M. & Youssef, A. (2019) <em>On Privacy Risks of Public WiFi Captive Portals</em>. arXiv.</li>
+  <li>Burdon, M. & McKillop, A. (2015) <em>The Google Street View Wi‑Fi scandal and its repercussions for privacy regulation</em>. Monash University Law Review.</li>
+  <li>Confessore, N. (2018) ‘Cambridge Analytica and Facebook: The Scandal and the Fallout So Far’, <em>The New York Times</em>.</li>
+  <li>Cutler, A. & Kulis, B. (2018) <em>Inferring Human Traits From Facebook Statuses</em>. arXiv.</li>
+  <li>European Union (2016) <em>General Data Protection Regulation (GDPR)</em>.</li>
+  <li>IGS (2023) ‘Active vs passive digital data collection: ethical risks of an ambiguous distinction’, <em>Information Governance Services</em>.</li>
+  <li>Wired (2012) ‘An Intentional Mistake: The Anatomy of Google’s Wi‑Fi Sniffing Debacle’, <em>Wired</em>.</li>
+</ul>
+
+
+
+
+
+    </div>
+</body>
+</html>
